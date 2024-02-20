@@ -1,0 +1,11 @@
+// 修改主题色
+$--color-primary: rgba(114,124,245,1);
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import "~element-ui/packages/theme-chalk/src/index";
+
+//初始化body样式
+body {
+  margin: 0;
+  padding: 0;
+  background: #fafbfe;
+}
