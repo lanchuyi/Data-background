@@ -1,7 +1,7 @@
 <template>
   <el-container class="layout-page">
     <el-aside width="200px">
-      <div class="logo">黑马面经</div>
+      <div class="logo">xx数据管理</div>
       <el-menu
         router
         :default-active="$route.path"
@@ -15,7 +15,7 @@
         </el-menu-item>
         <el-menu-item index="/article">
           <i class="el-icon-notebook-1"></i>
-          <span>面经管理</span>
+          <span>数据管理</span>
         </el-menu-item>
       </el-menu>
     </el-aside>

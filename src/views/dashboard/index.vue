@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard-page">
     <el-breadcrumb separator-class="el-icon-arrow-right">
-      <el-breadcrumb-item>面经后台</el-breadcrumb-item>
+      <el-breadcrumb-item>数据后台</el-breadcrumb-item>
       <el-breadcrumb-item>数据看板</el-breadcrumb-item>
     </el-breadcrumb>
     <!-- 一行24份 -->

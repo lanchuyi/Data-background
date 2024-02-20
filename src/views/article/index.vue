@@ -1,8 +1,8 @@
 <template>
   <div class="article-page">
     <el-breadcrumb separator-class="el-icon-arrow-right">
-      <el-breadcrumb-item>面经后台</el-breadcrumb-item>
-      <el-breadcrumb-item>面经管理</el-breadcrumb-item>
+      <el-breadcrumb-item>数据后台</el-breadcrumb-item>
+      <el-breadcrumb-item>数据管理</el-breadcrumb-item>
     </el-breadcrumb>
     <el-card shadow="never" border="false">
       <template #header>
@@ -16,7 +16,7 @@
            @click="openDwan('add')"
             >
 
-            添加面经
+            添加数据
           </el-button>
         </div>
       </template>
@@ -136,9 +136,9 @@ export default {
     async openDwan (type, id) {
       this.drawer = true
       const obj = {
-        add: '添加面经',
-        look: '查看面经',
-        edit: '编辑面经'
+        add: '添加数据',
+        look: '查看数据',
+        edit: '编辑数据'
       }
       this.ruleForm.id = id
       this.nowtitle = type
